@@ -4,8 +4,8 @@ import datetime
 today = datetime.datetime.now()
 date_tod = today.strftime("%d/%m/%Y")
 time_now = today.strftime("%X")
-APP_id = "b2c5180a"
-API_key = "8ad7d9ed6e3c325dde6ba705e01c412a"
+APP_id = ""
+API_key = ""
 headers = {
     "x-app-id": APP_id,
     "x-app-key": API_key,
